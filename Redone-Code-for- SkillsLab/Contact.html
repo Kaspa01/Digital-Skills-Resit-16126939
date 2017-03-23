@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+<meta charset="utf-8">
+<title>Online Portfolio Of Kasparas Litinskas</title>
+</head>
+<body>
+  <header><img src="Images/logo.png">
+  </header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About_page.html">About myself</a></li>
+    <li><a href="Hobbies_Page.html">My hobbies</a></li>
+    <li><a class="contact" href="Contact.html">Contact</a></li>
+  </ul>
+</nav>
+<main>
+  <h1 class="contactHeader">Want to contact me? Just write your message here, and send it to my E-mail</h1>
+<form action="contact.php" method="post">
+    Your name<br>
+  <input type="text" name="cf_name" autofocus/><br>
+    Your e-mail<br>
+  <input type="email" name="cf_email"/><br>
+  Message<br>
+  <textarea name="cf_message"></textarea><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
+<h2 class="contactHeader2">My current location of stay</h2>
+<iframe
+            width="600"
+            height="400"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDfg6ync1oZAtqDBj7AXF4WhzmD6H0D6Ns&q=Waldorpstraat+47,DenHaag+Netherlands" allowfullscreen>
+          </iframe>
+</main>
+    <footer>Author: Kasparas Litinskas</footer>
+</body>
+</html>
